@@ -1,0 +1,43 @@
+.table {
+  display: flex;
+  justify-content: space-between;
+}
+
+.name {
+  font-family: 'Roboto';
+  color: #cbd5e1;
+  font-size: 17px;
+  padding-top: 18px;
+  padding-bottom: 23px;
+}
+
+.button {
+  font-family: 'Roboto';
+  font-size: 16px;
+  background-color: #3b82f6;
+  color: #f8fafc;
+  border-radius: 5px;
+  width: 70px;
+  height: 34px;
+  align-self: center;
+  margin-right: 20px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.line {
+  width: 100%;
+  border: 1px solid #334155;
+}
+
+.visited {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: #94a3b8;
+  font-family: 'Roboto';
+  font-size: 16px;
+  align-self: center;
+  margin-right: 30px;
+}

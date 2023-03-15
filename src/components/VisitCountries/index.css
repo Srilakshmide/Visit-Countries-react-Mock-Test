@@ -1,0 +1,80 @@
+.bg-container {
+  background-color: #161624;
+  min-height: 100vh;
+  padding: 15px 40px;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 26px;
+  color: #f8fafc;
+  font-weight: 400;
+}
+
+.countries-container {
+  background-color: #1f1f2f;
+  border: 1px solid #334155;
+  border-radius: 8px;
+  max-height: 43vh;
+  overflow-y: auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  list-style-type: none;
+}
+
+.image-container {
+  background-color: #1f1f2f;
+}
+
+.image {
+  width: 250px;
+  height: 120px;
+  margin-bottom: 5px;
+}
+
+.images-list {
+  display: flex;
+  list-style-type: none;
+  margin-top: 10px;
+  flex-wrap: wrap;
+  padding: 0px;
+}
+
+.name-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px;
+  padding: 0px;
+}
+
+.name {
+  font-family: 'Roboto';
+  color: #f8fafc;
+  font-size: 15px;
+  margin-left: 8px;
+}
+
+.delete-btn {
+  border: 1px solid #f8fafc;
+  font-family: 'Roboto';
+  font-size: 15px;
+  background-color: transparent;
+  color: #f8fafc;
+  padding: 0px;
+  height: 30px;
+  margin-right: 8px;
+  align-self: center;
+  width: 80px;
+  outline: none;
+}
+
+.no-countries {
+  height: 30vh;
+}
+
+.no-countries-head {
+  font-family: 'Roboto';
+  font-size: 26px;
+  color: #f8fafc;
+  font-weight: 500;
+}

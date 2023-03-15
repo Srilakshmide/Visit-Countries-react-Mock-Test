@@ -1,0 +1,9 @@
+.image-container {
+  margin-left: 0px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.delete-btn {
+  cursor: pointer;
+}
